@@ -1,0 +1,16 @@
+/* Base styles (i.e. HTML tag selectors only) */
+
+html {
+  box-sizing: border-box;
+  font-size: 62.5%; /* For easier conversion of REMs to Pixels (e.g. 1.6rem == 16px) */ 
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+body {
+  font-size: 1.6rem;
+}

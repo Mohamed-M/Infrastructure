@@ -1,0 +1,14 @@
+# Git ignored file index
+*.txt
+*.jpg
+*.jpeg
+*.zip
+*.gz
+*.doc
+*.docx
+log/*.log
+log/*.log.[0-9]
+
+production/*
+!production/*.html
+node_modules/
