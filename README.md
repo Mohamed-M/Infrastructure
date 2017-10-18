@@ -2,7 +2,7 @@
 
 ![Infrastructure](https://i.imgur.com/C7ocuj4.jpg)
 
-A build system that utilizes Sass as the preprocessor that get's piped into PostCSS, which behaves as a post processor and transpiles various plugins into the source code. The Javascript is minified with gulp-uglify. Gulp is the task runner system that ties it altogether and watches/exports all the files in the development folder to the production folder, and also provides a local server with Browsersync. 
+A build system that utilizes Sass as the preprocessor that get's piped into PostCSS, which behaves as a post processor and transpiles various plugins into the source code. The Javascript is minified with gulp-uglify. Gulp is the task runner that ties it altogether and watches/exports all the files in the development folder to the production folder, and also provides a local server with Browsersync. 
 
 ### Guide
 All SCSS and JavaScript code should be done in the development folder. 
